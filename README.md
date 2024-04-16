@@ -11,7 +11,14 @@ https://laravel-react.com
 Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.
 
 1. Download the project (or clone using GIT)
-2. Copy `.env.example` into `.env` and configure database credentials
+2. Copy `.env.example` into `.env` and configure database credentials. For this project, use the following info before migrate:
+        DB_CONNECTION=sqlite
+        # DB_HOST=127.0.0.1
+        # DB_PORT=3306
+        # DB_DATABASE=laravel
+        # DB_USERNAME=root
+        # DB_PASSWORD=
+    Note: This project doesn't require too much database integration that's why SQLite is used instead of MySQL.
 3. Navigate to the project's root directory using terminal
 4. Run `composer install`
 5. Set the encryption key by executing `php artisan key:generate --ansi`
