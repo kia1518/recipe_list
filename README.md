@@ -1,24 +1,10 @@
-# Laravel React Example Full Stack Application
-Example Application build with Laravel and React
-
-> The repo was created while I was working on the following [YouTube tutorial](https://youtu.be/qJq9ZMB2Was)
-
-## Demo
-https://laravel-react.com
-
+# Laravel React Full Stack Application (Recipe List)
 
 ## Installation 
 Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.
 
 1. Download the project (or clone using GIT)
-2. Copy `.env.example` into `.env` and configure database credentials. For this project, use the following info before migrate:
-        DB_CONNECTION=sqlite
-        # DB_HOST=127.0.0.1
-        # DB_PORT=3306
-        # DB_DATABASE=laravel
-        # DB_USERNAME=root
-        # DB_PASSWORD=
-    Note: This project doesn't require too much database integration that's why SQLite is used instead of MySQL.
+2. Copy `.env.example` into `.env` and configure database credentials.
 3. Navigate to the project's root directory using terminal
 4. Run `composer install`
 5. Set the encryption key by executing `php artisan key:generate --ansi`
@@ -28,3 +14,4 @@ Make sure you have environment setup properly. You will need PHP8.1, composer an
 9. Copy `react/.env.example` into `.env` and adjust the `VITE_API_BASE_URL` parameter
 9. Run `npm install`
 10. Run `npm run dev` to start vite server for React
+
